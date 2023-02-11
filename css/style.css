@@ -1,0 +1,28 @@
+.page{
+   max-width: 1900px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 90px 50px 70px 50px;
+   margin: auto ;
+}
+h1 {
+   font-size: 34px;
+   font-weight: 700;
+   margin-bottom: 15px;
+   color: rgb(252, 99, 17);
+}
+li{
+   margin-bottom: 10px;
+}
+a{
+   margin-bottom: 8px;
+   font-weight: 600;
+   font-size: 18px;
+   line-height:1.51;
+   transition: all 0.3s ease 0s;
+}
+a:hover{
+   color: rgba(252, 99, 17, 0.897);
+   text-decoration: underline;
+}

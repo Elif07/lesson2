@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="avatar.png">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Task 4 </title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+      </header>
+      <main class="page">
+         <h1>Задача 4</h1>
+         <p>Дано довжину у сантиметрах. Визначати скільки це метрів і кілометрів.</p>
+         <script>
+            //вводимо дані
+            let lengthCm = parseFloat(prompt('введіть довжину у сантиметрах ', '0'))
+            //знаходимо результат
+            let lengthM = lengthCm * 0.01
+            let lengthKm = lengthCm * 0.00001
+            //виводимо результат
+            document.write(`${lengthCm}см = ${lengthM}м,  ${lengthCm}см = ${lengthKm}км`)
+         </script>
+      </main>
+      <footer class="footer">
+      </footer>
+   </div>
+   <!-- <script src="js/script.js">
+   </script> -->
+</body>
+
+</html>

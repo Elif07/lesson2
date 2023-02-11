@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="avatar.png">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Task 2</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+      </header>
+      <main class="page">
+         <h1>Задача 2</h1>
+         <p>Дано рік народження (дата: 1 січня) та поточний рік. Знайти кількість років.</p>
+         <script>
+              //вводимо дані
+               let yearOfBirth = parseFloat(prompt('введіть рік народження ', 'рік'))
+               let yearToday = 2023
+               //знаходимо результат
+               
+               let quantityOfYears = yearToday - yearOfBirth
+            //виводимо результат
+            document.write(`кількість років ${quantityOfYears}`)
+         </script>
+      </main>
+      <footer class="footer">
+      </footer>
+   </div>
+   <!-- <script src="js/script.js">
+   </script> -->
+</body>
+
+</html>
